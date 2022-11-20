@@ -14,6 +14,7 @@ HOWTO
 ----------
 
 ###STEP 0
+
 This repo is just a client.  You need a server for it to talk to.  So, run an
 instance of a server from [this](https://github.com/navicore/sbjava-mtls-lotsofnames-server) other repo locally.
 
