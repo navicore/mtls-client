@@ -18,12 +18,17 @@ HOWTO
 This repo is just a client.  You need a server for it to talk to.  So, run an
 instance of a server from [this](https://github.com/navicore/sbjava-mtls-lotsofnames-server) other repo locally.
 
-For the demo - use the p12 files generated in the server setup instructions.
-
 ### STEP 1
+
+Use the p12 files generated in the server setup instructions from STEP 0.
 
 Copy from the server's `src/main/resources` the `client.p12` and 
 `client-truststore.p12` into this repo's `src/main/resources/` dir.
+
+```bash
+cp ../sbjava-mtls-lotsofnames-server/src/main/resources/client.p12 ./src/main/resources/
+cp ../sbjava-mtls-lotsofnames-server/src/main/resources/client-truststore.p12 ./src/main/resources/
+```
 
 
 ### STEP 2
