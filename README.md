@@ -13,23 +13,25 @@ changes to application properties like the server-side example
 HOWTO
 ----------
 
-Run an instance of the [server](https://github.com/navicore/sbjava-mtls-lotsofnames-server) locally .
+###STEP 0
+This repo is just a client.  You need a server for it to talk to.  So, run an
+instance of a server from [this](https://github.com/navicore/sbjava-mtls-lotsofnames-server) other repo locally.
 
 For the demo - use the p12 files generated in the server setup instructions.
 
-###STEP1
+###STEP 1
 
 Copy from the server's `src/main/resources` the `client.p12` and 
 `client-truststore.p12` into this repo's `src/main/resources/` dir.
 
 
-###STEP2
+###STEP 2
 
 ```bash
 ./gradlew assemble
 ```
 
-###STEP3
+###STEP 3
 
 ```bash
 java -jar ./build/libs/mtls-client-0.0.1-SNAPSHOT.jar
