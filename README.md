@@ -1,3 +1,8 @@
+<!-- ghmig:moved -->
+> **This repository has moved to [https://git.navicore.tech/navicore/mtls-client](https://git.navicore.tech/navicore/mtls-client).**
+>
+> The GitHub copy is archived and no longer maintained.
+
 mTLS CLI Client Example w/ Spring Boot
 ===================
 
